@@ -102,15 +102,27 @@ h2{
     .logos{
         display:grid;
         grid-template-columns: repeat(6,1fr);
-        grid-column-gap: 80px;
-        margin-left: 110px;
+        grid-column-gap:80px;
+        margin-left: 120px;
         padding-top: 50px;
     } 
 
 /* Popular part  */
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+}
+.collection{
+    background-color:white;
+    border-radius: 15px;
+    margin:60px;
+    padding:8px;
+
+}
 .section-title{
     font-size: 20px;
-    display:inline-block;
+    display:inline-flex;
 }
 .course-benner img{
     width:300px;
@@ -123,3 +135,4 @@ h2{
 .fa-star{
     color: #ffc014; 
 }
+
