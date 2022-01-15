@@ -53,12 +53,12 @@ ul .fas{
 }
 
  /* influnce second-step */
- .flexiable-container{
-     display: flex;
+ .camera-contain{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
      margin-bottom: 60px;
  }
 .go-preebook{
-    width: 50%;
     padding-left: 100px;
     padding-top: 120px;
 }
@@ -72,16 +72,54 @@ h2{
     padding: 10px 24px;
     border-radius: 40px;
     background-color:red;
-    margin-bottom: 70px;
+    margin-top: 50px;
     color: white;
-    font-weight: 850px;}
+    font-weight: 850px;
+}
 
-    .camera-left img{
-        background-color: whitesmoke;
-        width: 440px;
-        height: 410px;
-        padding-top: 70px;
-        margin-left: 30px;}
+   
+  .camera-left img{
+    background: url(images/bg-img.png);
+    width: 410px;
+    height: 380px;
+    padding-top: 70px;
+  
+}
+.bg-camera{
+    padding-top: 30px;
+    margin-left: 100px;
+}
+
+    .bg-camera:hover .camera-left{
+        transform: scale(1.2) rotate(20deg);
+        transition: transform 2s ease-in-out;
     }
 
+ /* hr{
+     border: 2px solid #D1D1D1;
+     margin-bottom: 28px;} */
 
+    .logos{
+        display:grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-column-gap: 80px;
+        margin-left: 110px;
+        padding-top: 50px;
+    } 
+
+/* Popular part  */
+.section-title{
+    font-size: 20px;
+    display:inline-block;
+}
+.course-benner img{
+    width:300px;
+    height:200px;
+}
+.collection-info{
+    font-size: 14px;
+}
+
+.fa-star{
+    color: #ffc014; 
+}
